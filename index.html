@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dave Quah (@Milleus)">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | Equalizer landing page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/global.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W6QZZYV2W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5W6QZZYV2W');
+  </script>
+</head>
+
+<body class="landing grid">
+  <header class="container">
+    <img src="/assets/logo.svg" alt="Equalizer logo">
+  </header>
+
+  <main>
+    <div class="intro container">
+      <h1 class="fs-800 fw-700 ls-tight">We make your music sound extraordinary.</h1>
+      <p>
+        A system audio equalizer specifically designed for Android and iOS. Freely tune the
+        way your music sounds with a professional grade parametric EQ & volume mixer. Control
+        bass, mids, treble, gain control, reverb, and more!
+      </p>
+    </div>
+
+    <div class="product">
+      <img class="illustration" src="/assets/illustration-app.png" alt="app illustration">
+      <div class="cta bg-red-400 text-neutral-200 rounded-12">
+        <h2 class="fs-700 fw-700">Premium EQ</h2>
+        <p class="description fs-500">
+          Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take
+          your listening experience to a whole new level and access all our incredible features!
+        </p>
+        <p class="price flex fs-900 fw-700">$4 <span class="fs-600 fw-400">/ month</span></p>
+        <button class="button" data-type="primary">
+          <img src="/assets/icon-apple.svg" alt="">
+          iOS Download
+        </button>
+        <button class="button" data-type="secondary">
+          <img src="/assets/icon-android.svg" alt="">
+          Android Download
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container grid">
+    <h2 class="sr-only">Copyright, Contact and Social Media</h2>
+    <img src="/assets/logo.svg" alt="" aria-hidden="true">
+    <div class="copyright-contact fs-1rem-fixed">
+      <p>All rights reserved © Equalizer 2021</p>
+      <p>
+        Have any problems? Contact us via social media or email us at <span class="fw-700">equalizer@example.com</span>
+      </p>
+    </div>
+    <ul class="flex">
+      <li>
+        <a href="#">
+          <span class="sr-only">Facebook</span>
+          <img src="/assets/icon-facebook.svg" alt="" aria-hidden="true">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="sr-only">Instagram</span>
+          <img src="/assets/icon-instagram.svg" alt="" aria-hidden="true">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="sr-only">Twitter</span>
+          <img src="/assets/icon-twitter.svg" alt="" aria-hidden="true">
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+.design-system {
+  margin-block: 3.875rem 9.375rem;
+}
+
+.design-system > header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-neutral-800-50 {
+  color: hsl(var(--clr-neutral-800) / 0.5);
+}
+
+/* ------------------- */
+/* Colors              */
+/* ------------------- */
+.colors {
+  margin-top: 6.25rem;
+}
+
+.colors-layout {
+  --grid-gap: 1.875rem;
+  --space: 1.25rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3rem;
+}
+
+.colors-layout .color-box {
+  height: 6.25rem;
+  padding: 1.5rem;
+}
+
+/* ------------------- */
+/* Typography          */
+/* ------------------- */
+.typography {
+  margin-top: 9.375rem;
+}
+
+.typography-layout {
+  --flex-gap: 1.875rem;
+  margin-top: 2.75rem;
+}
+
+.typography-layout .column-left {
+  --space: 3.5rem;
+  flex-basis: 50%;
+}
+
+.typography-layout .column-right {
+  --space: 3.5rem;
+  flex-basis: 50%;
+}
+
+/* ------------------- */
+/* Buttons             */
+/* ------------------- */
+.buttons {
+  margin-top: 9.375rem;
+}
+
+.buttons-layout {
+  --grid-gap: 1.875rem;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 4.5rem 6.9375rem;
+  margin-top: 3rem;
+}
+
+.buttons-layout button {
+  margin-inline: auto;
+}
+
+.buttons-layout p {
+  text-align: center;
+  margin-top: 0.75rem;
+}

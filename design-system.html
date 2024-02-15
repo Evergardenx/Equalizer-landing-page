@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dave Quah (@Milleus)">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | Equalizer landing page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/global.css">
+  <link rel="stylesheet" href="/design-system.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W6QZZYV2W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5W6QZZYV2W');
+  </script>
+</head>
+
+<body>
+  <main class="design-system container space-y fs-1rem-fixed">
+    <header class="flex">
+      <img src="/assets/logo.svg" alt="Equalizer logo">
+      <h1 class="fw-700" style="font-size: 1.125rem;">Design System</h1>
+    </header>
+
+    <!-- Colors -->
+    <section class="colors" aria-labelledby="title-1">
+      <h2 class="fs-700 fw-700" id="title-1">Colors</h2>
+
+      <div class="colors-layout grid">
+        <div class="space-y">
+          <div class="color-box flex bg-cyan-400 rounded-12">
+            <p class="fw-700">#66E2DC</p>
+          </div>
+          <div class="color-details">
+            <p class="flex text-neutral-800-50">RGB<span class="text-neutral-800">102, 226, 220</span></p>
+            <p class="flex text-neutral-800-50">HSL<span class="text-neutral-800">177°, 68%, 64%</span></p>
+          </div>
+        </div>
+        <div class="space-y">
+          <div class="color-box flex bg-red-400 rounded-12">
+            <p class="fw-700">#FA7453</p>
+          </div>
+          <div class="color-details">
+            <p class="flex text-neutral-800-50">RGB<span class="text-neutral-800">250, 116, 83</span></p>
+            <p class="flex text-neutral-800-50">HSL<span class="text-neutral-800">12°, 94%, 65%</span></p>
+          </div>
+        </div>
+        <div class="space-y">
+          <div class="color-box flex bg-orange-400 rounded-12">
+            <p class="fw-700">#FFB964</p>
+          </div>
+          <div class="color-details">
+            <p class="flex text-neutral-800-50">RGB<span class="text-neutral-800">255, 185, 100</span></p>
+            <p class="flex text-neutral-800-50">HSL<span class="text-neutral-800">33°, 100%, 70%</span></p>
+          </div>
+        </div>
+        <div class="space-y">
+          <div class="color-box flex bg-neutral-200 rounded-12" style="border: 1px solid #191826;">
+            <p class="fw-700">#FCFAF9</p>
+          </div>
+          <div class="color-details">
+            <p class="flex text-neutral-800-50">RGB<span class="text-neutral-800">102, 226, 220</span></p>
+            <p class="flex text-neutral-800-50">HSL<span class="text-neutral-800">177°, 68%, 64%</span></p>
+          </div>
+        </div>
+        <div class="space-y">
+          <div class="color-box flex bg-neutral-800 rounded-12">
+            <p class="text-neutral-200 fw-700">#66E2DC</p>
+          </div>
+          <div class="color-details">
+            <p class="flex text-neutral-800-50">RGB<span class="text-neutral-800">102, 226, 220</span></p>
+            <p class="flex text-neutral-800-50">HSL<span class="text-neutral-800">177°, 68%, 64%</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Typography -->
+    <section class="typography" aria-labelledby="title-2">
+      <h2 class="fs-700 fw-700" id="title-2">Typography</h2>
+
+      <div class="typography-layout flex">
+        <div class="column-left space-y">
+          <div>
+            <p class="flex text-neutral-800-50">
+              <span class="text-neutral-800">H1</span>
+              <span>IBM Plex Sans Bold</span>
+              <span>88px</span>
+              <span>88px Line</span>
+              <span>-1px Spacing</span>
+            </p>
+            <p class="fs-800 fw-700 ls-tight">Lorem Ipsum Dolor Sit</p>
+          </div>
+          <div>
+            <p class="flex text-neutral-800-50">
+              <span class="text-neutral-800">H2</span>
+              <span>IBM Plex Sans Bold</span>
+              <span>40px</span>
+              <span>52px Line</span>
+            </p>
+            <p class="fs-700 fw-700">Donec nec justo eget felis facilisis fermentum</p>
+          </div>
+        </div>
+        <div class="column-right space-y">
+          <div>
+            <p class="flex text-neutral-800-50">
+              <span class="text-neutral-800">Body 1</span>
+              <span>IBM Plex Sans Reg</span>
+              <span>20px</span>
+              <span>34px Line</span>
+            </p>
+            <p class="fs-400">
+              Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate
+              sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+            </p>
+          </div>
+          <div>
+            <p class="flex text-neutral-800-50">
+              <span class="text-neutral-800">Body 2</span>
+              <span>IBM Plex Sans Reg</span>
+              <span>16px</span>
+              <span>26px Line</span>
+            </p>
+            <p class="fs-1rem-fixed">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.
+              Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+              ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam
+              mollis. Ut justo. Suspendisse potenti.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Buttons -->
+    <section class="buttons" aria-labelledby="title-3">
+      <h2 class="fs-700 fw-700" id="title-3">Buttons</h2>
+
+      <div class="buttons-layout grid bg-red-400 rounded-12">
+        <div>
+          <button class="button" data-type="primary">
+            <img src="/assets/icon-apple.svg" alt="" aria-hidden="true">
+            iOS Download
+          </button>
+          <p class="text-neutral-200">iOS Download Button Default + Hover</p>
+        </div>
+        <div>
+          <button class="button" data-type="secondary">
+            <img src="/assets/icon-android.svg" alt="" aria-hidden="true">
+            Android Download
+          </button>
+          <p class="text-neutral-200">Android Download Button Default + Hover</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
